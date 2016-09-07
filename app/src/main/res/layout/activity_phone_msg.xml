@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gary"
+    tools:context="com.yuyunchao.asus.contacts.activity.PhoneMsgActivity"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+    <ListView
+        android:background="@color/white"
+        android:layoutAnimation="@anim/item_transistion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_msg"
+        >
+    </ListView>
+    <include layout="@layout/loading"></include>
+</RelativeLayout>
